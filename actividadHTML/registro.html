@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laura's cosmetics</title>
+</head>
+    <style>
+        header {
+            background-color: rgb(228, 38, 178);
+            color: rgb(206, 189, 206);
+            padding: 25px;
+            text-align: center;
+        }
+    </style>
+    <body>
+        <header>
+            <h1>LAURA'S COSMETICS</h1>
+            <P>"La belleza comieza en tu interior, el maquillaje solo la resalta"</P>
+        </header>
+    
+        <body style="display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #f8f8f8; margin: 0;">
+           <div style="background-color: white; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0.1); text-align: center; width: 300px;">
+            <h2 style="margin-bottom: 20px;">REGISTRATE</h2>
+            <form action="inicio_sesion.html" method="post">
+            <br>
+            Nombre: <br>
+            <input type="text" name="Nombre" required="" placeholder="Nombres" required style="width: 50%; padding: 8px; margin-top: 5px; border: 1px solid #ccc; border-radius: 5px;"><br><br>
+            Apellido: <br>
+            <input type="text" name="Apellido" required="" placeholder="Apellidos"  required style="width: 50%; padding: 8px; margin-top: 5px; border: 1px solid #ccc; border-radius: 5px;"><br><br>
+           TIPO DE DOCUMENTO: <br>
+            <select name="Tipo de documento" required style="width: 50%; padding: 8px; margin-top: 5px; border: 1px solid #ccc; border-radius: 5px;">
+                <option value="seleccione...">SELECCIONE...</option><br>
+            <option value="cedula de ciudadania">CEDULA DE CIUDADANIA</option><br><br>
+            <option value="cedula de extranjeria colombiana">CEDULA DE EXTRANJERIA COLOMBIANA</option><br><br>
+            <option value="cedula extranjera">CEDULA EXTRANJERA</option><br><br>
+            <option value="documento extranjero">DOCUMENTO EXTRANJERO</option><br><br>
+            <option value="pasaporte">PASAPORTE</option><br><br>
+            <option value="registro civil">REGISTRO CIVIL</option><br><br>
+            <option value="tarjeta de identidad">TARJETA DE IDENTIDAD</option><br><br>
+        </select><br><br>
+            Numero: <br>
+            <input type="text" name="Numero de telefono" required="" placeholder="Numero" required style="width: 50%; padding: 8px; margin-top: 5px; border: 1px solid #ccc; border-radius: 5px;"><br><br>
+            Email: <br>
+            <input type="text" name="Correo" required="" placeholder="Correo"  required style="width: 50%; padding: 8px; margin-top: 5px; border: 1px solid #ccc; border-radius: 5px;"><br><br>
+            Contraseña: <br>
+            <input type="password" name="Email" required="" placeholder="Contraseña"  required style="width: 50%; padding: 8px; margin-top: 5px; border: 1px solid #ccc; border-radius: 5px;"><br><br>
+           <button type="submit" style="margin-top: 15px; padding: 10px; width: 50%; border: none; background-color: #ff4081; color: white; font-size: 16px; cursor: pointer; border-radius: 5px;">Registrar</button>
+        </form>
+        <p style="margin-top: 15px;">¿Ya tienes una cuenta?
+            <a href="inicio_sesion.html" style="color: #ff4081; text-decoration: none; font-weight: bold;">Inicia sesion aqui</a>
+
+        </p>
+</body>
+</html>
